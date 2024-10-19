@@ -1,0 +1,237 @@
+/* // 
+Light Theme !
+Deveplement By Husam Saad
+// Date:16-09-2024 */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 2% auto;
+}
+
+.counterloves{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.counterdetails img{
+    width: 60px;
+}
+
+.logoicon{
+    width: 10rem;
+}
+
+.searchbar{
+    display: flex;
+    border: 2px solid black;
+}
+
+.searchbar input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    color: red;
+    font-weight: 500px;
+}
+
+.searchbar img{
+    width: 20px;
+}
+
+.screen{
+    margin: 0 15% ;
+    
+}
+
+.bar
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #990000;
+    padding: 5px;
+    border: 3px solid red;
+   
+}
+
+.nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    
+   
+}
+
+.nav li{
+    list-style: none;
+    color: white;
+    font-size: 1.3rem; 
+    font-family: cursive;
+}
+
+.bar button
+{
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.counterdetails{
+    display: flex;
+    align-items: end;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sliderphoto{
+    margin: 0 auto;
+    width: 80%;
+    height: 350px;
+
+}
+
+.arrows{
+    width: 50px;
+    height: 50px;
+}
+
+.watchonline{
+    position:absolute ;
+    left: 30%;
+    top: 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+   
+
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 25px auto;
+    
+}
+
+.box{
+    align-items: center;
+    text-align: center;
+}
+
+.trendingnowimage {
+    width: 65%;
+    height: 80%;
+}
+.box p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.videotitle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.loveicon{
+    width: 15%;
+}
+.trendingnow-row1{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.trendingnow-row2{
+    display: flex;
+
+}
+.showmore{
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 1px 3px black;
+}
+
+
+
+.topviews{
+   
+    padding: 5px 5px 60px 0;   
+}
+
+.footer{
+    background-color:#990000 ;
+    padding: 5px 50px;
+    height: 300px;
+}
+
+.sectionupper{
+    width: 90%;
+    margin: 10px 5px 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    
+}
+
+.sectionupper a{
+    color: white;
+    font-family: cursive;
+}
+
+.sectionlower{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialmedaiiocn{
+    display: flex;
+}
+
+.socialmedaiiocn img{
+    width: 60px;
+    padding: 10px;
+}
+.contactus{
+    width: 20%;
+}
+
+.contactus input{
+    display: block;
+    justify-content: ce;
+    margin: 5px;
+    
+}
+
+.contactus button{
+    padding: 5px;
+    font-weight: bold;
+    position: relative;
+    right: -135px;
+}
+
+
+li:hover {
+    color: gray;
+  }
+
+
+

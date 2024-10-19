@@ -1,0 +1,166 @@
+<!-- Deveplement By Husam Saad
+Date:16-09-2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A web Page</title>
+</head>
+
+<body>
+    <div class="screen">
+        <header class="header">
+            <img class="logoicon" src="Assets/logoicon.PNG" alt="logo icon">
+            <div class="searchbar">
+                <img src="Assets/micicon.PNG" alt="" class="mic">
+                <input type="text" class="search" placeholder="search" id="searchinput">
+                <img src="Assets/searchicon.PNG" alt="search icon" onclick="search(searchinput)">
+            </div>
+            <div class="counterdetails">
+                <img src="Assets/loveicon.PNG" alt="" class="loveicon">
+                <p class="counterloves" id="maincounter">0</p>
+            </div>
+        </header>
+
+        <nav class="bar">
+            <ul class="nav">
+                <li hov>Home</li>
+                <li>Category</li>
+                <li>Contact us</li>
+                <li>About us</li>
+            </ul>
+            <button class="signin">sign in</button>
+        </nav>
+
+        <div class="slider">
+            <img src="Assets/toleft.PNG" alt="Left arrow" class="arrows" onclick="previosphoto(sliderphoto)">
+            <img src="Assets/Slider/bd-item-1.jpg" alt=" slider photo" class="sliderphoto" id="sliderphoto">
+            <img src="Assets/toright.PNG" alt="right arrow" class="arrows" onclick="nextphoto(sliderphoto)">
+        </div>
+        <button class="watchonline" onclick="removeitem(this)">Watch Online</button>
+        <div class="main">
+            <div class="trendingnow">
+                <div class="trendingnow-row1">
+                    <figure class="box">
+                        <img src="Assets/trendingnow/Naruto.jpg" alt="Naruto photo" class="trendingnowimage">
+                        <div class="videotitle">
+                            <p>Noruto</p>
+                            <img src="Assets/loveicon.PNG" alt="love icon" class="loveicon" onclick="increaselikes()">
+                        </div>
+                        <button class="showmore">Show More</button>
+                    </figure>
+
+                    <figure class="box">
+                        <img src="Assets/trendingnow/One Piece.jpg" alt="One Piece" class="trendingnowimage">
+                        <div class="videotitle">
+                            <p>One Piece</p>
+                            <img src="Assets/loveicon.PNG" alt="love icon" class="loveicon" onclick="increaselikes()">
+                        </div>
+                        <button class="showmore">Show More</button>
+                    </figure>
+
+                    <figure class="box">
+                        <img src="Assets/trendingnow/Attack on Titan.jpg" alt="Attack on Titan"
+                            class="trendingnowimage">
+                        <div class="videotitle">
+                            <p>Attack on Titan</p>
+                            <img src="Assets/loveicon.PNG" alt="love icon" class="loveicon" onclick="increaselikes()">
+                        </div>
+                        <button class="showmore">Show More</button>
+                    </figure>
+                </div>
+
+                <div class="trendingnow-row2">
+                    <figure class="box">
+                        <img src="Assets/trendingnow/Dragon Ball.jpg" alt="Dragon Ball" class="trendingnowimage">
+                        <div class="videotitle">
+                            <p>Dragon Ball</p>
+                            <img src="Assets/loveicon.PNG" alt="love icon" class="loveicon" onclick="increaselikes()">
+                        </div>
+                        <button class="showmore">Show More</button>
+                    </figure>
+
+                    <figure class="box">
+                        <img src="Assets/trendingnow/Hunter x Hunter.jpg" alt="Hunter x Hunter"
+                            class="trendingnowimage">
+                        <div class="videotitle">
+                            <p>Hunter x Hunter</p>
+                            <img src="Assets/loveicon.PNG" alt="love icon" class="loveicon" onclick="increaselikes()">
+                        </div>
+                        <button class="showmore">Show More</button>
+                    </figure>
+
+                    <figure class="box">
+                        <img src="Assets/trendingnow/Steinsgate.jpg" alt="Steinsgate" class="trendingnowimage">
+                        <div class="videotitle">
+                            <p>Steins Gate</p>
+                            <img src="Assets/loveicon.PNG" alt="love icon" class="loveicon" onclick="increaselikes()">
+                        </div>
+                        <button class="showmore">Show More</button>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="topviews">
+                <figure class="box2">
+                    <img src="Assets/topviews/tv-1.jpg" alt="tv-1" class="topviews">
+                    <img src="Assets/topviews/tv-4.jpg" alt="tv-2" class="topviews">
+                    <img src="Assets/topviews/tv-3.jpg" alt="tv-3" class="topviews">
+                </figure>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <section class="sectionupper">
+            <section class="section">
+                <h2>Website Info</h2>
+                <h4>Ot<a href="#">ky</a></h4>
+                <h4>about us</h4>
+            </section>
+            <section class="section">
+                <h2>Important Links</h2>
+                <h4><a href="#">Anime List</a></h4>
+                <h4><a href="#">Anime News</a></h4>
+            </section>
+
+            <section class="section">
+                <h2>Legal Info & Policies</h2>
+                <h4><a href="#">Privacy Policy</a></h4>
+                <h4><a href="#">Term o use</a></h4>
+            </section>
+
+            <section class="section">
+                <h2>Help and support</h2>
+                <h4><a href="#">Techanical Support</a></h4>
+                <h4><a href="">FAQ</a></h4>
+            </section>
+        </section>
+        <section class="sectionlower">
+
+            <section class="sociallinks">
+                <h2>Social Medai Link</h2>
+                <div class="socialmedaiiocn">
+                    <img src="Assets/fbicon.png" alt="Facebook icon">
+                    <img src="Assets/insticon.png" alt="Insta Icon">
+                    <img src="Assets/xicon.png" alt="X Icon">
+                </div>
+            </section>
+            <section class="copyright">
+                <h2>Copy Right Info</h2>
+                <h4>CopyRghit @2024 all right
+                    reserverd I This Templet is made with by Axsoso Academy</h4>
+            </section>
+            <section class="contactus">
+                <h2>Contact Us</h2>
+                <input type="email" placeholder="Husam@axsos">
+                <input type="text" placeholder="Husam Saad">
+                <button>send</button>
+            </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
